@@ -1,0 +1,5064 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.0.2",
+    "schemaVersion": 1000
+  },
+  "kind": "Package",
+  "name": "framer",
+  "canonicalReference": "framer",
+  "docComment": "",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "name": "",
+      "canonicalReference": "",
+      "members": [
+        {
+          "kind": "Interface",
+          "name": "Animatable",
+          "canonicalReference": "(Animatable:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "MethodSignature",
+              "name": "get",
+              "canonicalReference": "(get:0)",
+              "docComment": "",
+              "releaseTag": "Public",
+              "overloadIndex": 0,
+              "parameters": [],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "get"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "MethodSignature",
+              "name": "set",
+              "canonicalReference": "(set:0)",
+              "docComment": "",
+              "releaseTag": "Public",
+              "overloadIndex": 0,
+              "parameters": [
+                {
+                  "kind": "Parameter",
+                  "name": "value",
+                  "canonicalReference": "value",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": " | "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Animatable"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<"
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ">"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 8
+                    }
+                  }
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "set"
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Animatable"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 10,
+                  "endIndex": 11
+                }
+              }
+            },
+            {
+              "kind": "MethodSignature",
+              "name": "set",
+              "canonicalReference": "(set:1)",
+              "docComment": "",
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "kind": "Parameter",
+                  "name": "value",
+                  "canonicalReference": "value",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": " | "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Animatable"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<"
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ">"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 8
+                    }
+                  }
+                },
+                {
+                  "kind": "Parameter",
+                  "name": "transaction",
+                  "canonicalReference": "transaction",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "transaction"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "?: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "TransactionId"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  }
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "set"
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Animatable"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "transaction"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "TransactionId"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 14,
+                  "endIndex": 15
+                }
+              }
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "Animatable"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "Value"
+            },
+            {
+              "kind": "Content",
+              "text": "> extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "UpdateObserver"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "Value"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "Animatable",
+          "canonicalReference": "(Animatable:namespace)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "Animatable"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "animate",
+          "canonicalReference": "(animate:namespace)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "animate"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Class",
+          "name": "BezierAnimator",
+          "canonicalReference": "(BezierAnimator:class)",
+          "docComment": "/**\n * Animator class using a bezier curve.\n *\n * @beta\n */\n",
+          "releaseTag": "Beta",
+          "members": [
+            {
+              "kind": "Property",
+              "name": "current",
+              "canonicalReference": "(current:instance)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "current"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "isStatic": false,
+              "releaseTag": "Beta"
+            },
+            {
+              "kind": "Property",
+              "name": "destination",
+              "canonicalReference": "(destination:instance)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "destination"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "isStatic": false,
+              "releaseTag": "Beta"
+            },
+            {
+              "kind": "Property",
+              "name": "interpolator",
+              "canonicalReference": "(interpolator:instance)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "interpolator"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Interpolator"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 6
+                }
+              },
+              "isStatic": false,
+              "releaseTag": "Beta"
+            },
+            {
+              "kind": "Method",
+              "name": "isFinished",
+              "canonicalReference": "(isFinished:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "isFinished"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "isReady",
+              "canonicalReference": "(isReady:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "isReady"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "Property",
+              "name": "next",
+              "canonicalReference": "(next:instance)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "next"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "delta"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number) => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 6
+                }
+              },
+              "isStatic": false,
+              "releaseTag": "Beta"
+            },
+            {
+              "kind": "Property",
+              "name": "progress",
+              "canonicalReference": "(progress:instance)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "progress"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "isStatic": false,
+              "releaseTag": "Beta"
+            },
+            {
+              "kind": "Method",
+              "name": "setFrom",
+              "canonicalReference": "(setFrom:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [
+                {
+                  "kind": "Parameter",
+                  "name": "value",
+                  "canonicalReference": "value",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Value"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  }
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "setFrom"
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 6,
+                  "endIndex": 7
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "setTo",
+              "canonicalReference": "(setTo:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [
+                {
+                  "kind": "Parameter",
+                  "name": "value",
+                  "canonicalReference": "value",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Value"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  }
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "setTo"
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 6,
+                  "endIndex": 7
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "solveEpsilon",
+              "canonicalReference": "(solveEpsilon:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [
+                {
+                  "kind": "Parameter",
+                  "name": "duration",
+                  "canonicalReference": "duration",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "duration"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  }
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "solveEpsilon"
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "duration"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 4,
+                  "endIndex": 5
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "updateInterpolator",
+              "canonicalReference": "(updateInterpolator:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "updateInterpolator"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class "
+            },
+            {
+              "kind": "Reference",
+              "text": "BezierAnimator"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "Value"
+            },
+            {
+              "kind": "Content",
+              "text": "> implements "
+            },
+            {
+              "kind": "Reference",
+              "text": "Animator"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "Value"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "BezierOptions"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "Color",
+          "canonicalReference": "(Color:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "name": "a",
+              "canonicalReference": "a",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "a"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "b",
+              "canonicalReference": "b",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "b"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "format",
+              "canonicalReference": "format",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "format"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ColorFormat"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "g",
+              "canonicalReference": "g",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "g"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "h",
+              "canonicalReference": "h",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "h"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "initialValue",
+              "canonicalReference": "initialValue",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "initialValue"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "isValid",
+              "canonicalReference": "isValid",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "isValid"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "l",
+              "canonicalReference": "l",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "l"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "r",
+              "canonicalReference": "r",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "r"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "roundA",
+              "canonicalReference": "roundA",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "roundA"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "s",
+              "canonicalReference": "s",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "s"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "Color"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "Color",
+          "canonicalReference": "(Color:namespace)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "Color"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Enum",
+          "name": "ControlType",
+          "canonicalReference": "(ControlType:enum)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "name": "Array",
+              "canonicalReference": "Array",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Array"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"array\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "Boolean",
+              "canonicalReference": "Boolean",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"boolean\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "Color",
+              "canonicalReference": "Color",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Color"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"color\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "ComponentInstance",
+              "canonicalReference": "ComponentInstance",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "ComponentInstance"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"componentinstance\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "Enum",
+              "canonicalReference": "Enum",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"enum\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "File",
+              "canonicalReference": "File",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "File"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"file\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "FusedNumber",
+              "canonicalReference": "FusedNumber",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "FusedNumber"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"fusednumber\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "Image",
+              "canonicalReference": "Image",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Image"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"image\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "Number",
+              "canonicalReference": "Number",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Number"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"number\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "Object",
+              "canonicalReference": "Object",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Object"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"object\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "SegmentedEnum",
+              "canonicalReference": "SegmentedEnum",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "SegmentedEnum"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"segmentedenum\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "String",
+              "canonicalReference": "String",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "String"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"string\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum "
+            },
+            {
+              "kind": "Reference",
+              "text": "ControlType"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "ConvertColor",
+          "canonicalReference": "(ConvertColor:namespace)",
+          "docComment": "/**\n * @beta\n */\n",
+          "releaseTag": "Beta",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "ConvertColor"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "Data",
+          "canonicalReference": "(Data:namespace)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "Data"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "FrameProperties",
+          "canonicalReference": "(FrameProperties:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "name": "backfaceVisible",
+              "canonicalReference": "backfaceVisible",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "backfaceVisible"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Animatable"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<boolean>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 5
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "borderColor",
+              "canonicalReference": "borderColor",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "borderColor"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "borderStyle",
+              "canonicalReference": "borderStyle",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "borderStyle"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "BorderStyle"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "borderWidth",
+              "canonicalReference": "borderWidth",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "borderWidth"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Partial"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n        "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "top"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number;\n        "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "bottom"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number;\n        "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "left"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number;\n        "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "right"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number;\n    }>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 13
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "className",
+              "canonicalReference": "className",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "className"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "name",
+              "canonicalReference": "name",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "name"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "perspective",
+              "canonicalReference": "perspective",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "perspective"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Animatable"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 5
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "preserve3d",
+              "canonicalReference": "preserve3d",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "preserve3d"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Animatable"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<boolean>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 5
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "style",
+              "canonicalReference": "style",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "style"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "React"
+                },
+                {
+                  "kind": "Content",
+                  "text": "."
+                },
+                {
+                  "kind": "Reference",
+                  "text": "CSSProperties"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 5
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "visible",
+              "canonicalReference": "visible",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "visible"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "FrameProperties"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "ConstraintProperties"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "TransformProperties"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "VisualProperties"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Class",
+          "name": "FramerAnimation",
+          "canonicalReference": "(FramerAnimation:class)",
+          "docComment": "/**\n * This could be called just Animation, but it's type would clash with javascript's native Animation: https://developer.mozilla.org/en-US/docs/Web/API/Animation So if you forget the import, you would get weird errors.\n *\n * Also, this class follows the native Animation as much as possible.\n *\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "Method",
+              "name": "cancel",
+              "canonicalReference": "(cancel:instance,0)",
+              "docComment": "/**\n * @public\n */\n",
+              "isStatic": false,
+              "releaseTag": "Public",
+              "overloadIndex": 0,
+              "parameters": [],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "cancel"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "Property",
+              "name": "finished",
+              "canonicalReference": "(finished:instance)",
+              "docComment": "/**\n * @public\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "finished"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<void>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 3,
+                  "endIndex": 5
+                }
+              },
+              "isStatic": false,
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "Property",
+              "name": "ready",
+              "canonicalReference": "(ready:instance)",
+              "docComment": "/**\n * @public\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "readonly "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ready"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<void>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 3,
+                  "endIndex": 5
+                }
+              },
+              "isStatic": false,
+              "releaseTag": "Public"
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class "
+            },
+            {
+              "kind": "Reference",
+              "text": "FramerAnimation"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "Value"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "AnimatorOptions"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Class",
+          "name": "FramerEvent",
+          "canonicalReference": "(FramerEvent:class)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class "
+            },
+            {
+              "kind": "Reference",
+              "text": "FramerEvent"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "ObservableObject",
+          "canonicalReference": "(ObservableObject:namespace)",
+          "docComment": "/**\n * @beta\n */\n",
+          "releaseTag": "Beta",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "ObservableObject"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Class",
+          "name": "Page",
+          "canonicalReference": "(Page:class)",
+          "docComment": "/**\n * The Page component allows you to create horizontally or vertically swipeable areas. It can be imported from the Framer Library and used in code components. Add children to create pages to swipe between. These children will be stretched to the size of the page component by default, but can also be set to auto to maintain their original size. See {@link PageProperties} for it's properties\n *\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class "
+            },
+            {
+              "kind": "Reference",
+              "text": "Page"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "React"
+            },
+            {
+              "kind": "Content",
+              "text": "."
+            },
+            {
+              "kind": "Reference",
+              "text": "Component"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "Partial"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "PageProps"
+            },
+            {
+              "kind": "Content",
+              "text": ">> "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Enum",
+          "name": "PageEffect",
+          "canonicalReference": "(PageEffect:enum)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "name": "CoverFlow",
+              "canonicalReference": "CoverFlow",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "CoverFlow"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"coverflow\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "Cube",
+              "canonicalReference": "Cube",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Cube"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"cube\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "None",
+              "canonicalReference": "None",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "None"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"none\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "Pile",
+              "canonicalReference": "Pile",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Pile"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"pile\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "Wheel",
+              "canonicalReference": "Wheel",
+              "docComment": "",
+              "releaseTag": "Public",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "Wheel"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"wheel\""
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum "
+            },
+            {
+              "kind": "Reference",
+              "text": "PageEffect"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "PageEvents",
+          "canonicalReference": "(PageEvents:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "name": "onChangePage",
+              "canonicalReference": "onChangePage",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "onChangePage"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "currentIndex"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "previousIndex"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number, "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "pageComponent"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Page"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 11
+                }
+              },
+              "releaseTag": "Public"
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "PageEvents"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "PageProperties",
+          "canonicalReference": "(PageProperties:interface)",
+          "docComment": "/**\n * All properties that can be used with the {@link Page} component it also extends all {@link ScrollProperties} properties.\n *\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "name": "alignment",
+              "canonicalReference": "alignment",
+              "docComment": "/**\n * Alignment of the pages within the component. Either \"start\", \"center\", or \"end\"\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "alignment"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "PageAlignment"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "animateCurrentPageUpdate",
+              "canonicalReference": "animateCurrentPageUpdate",
+              "docComment": "/**\n * @beta\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "animateCurrentPageUpdate"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Beta"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "contentHeight",
+              "canonicalReference": "contentHeight",
+              "docComment": "/**\n * Height of the pages within the component. Either \"auto\" or \"stretch\" or a numeric value.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "contentHeight"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "PageContentDimension"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 4
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "contentWidth",
+              "canonicalReference": "contentWidth",
+              "docComment": "/**\n * Width of the pages within the component. Either \"auto\" or \"stretch\" or a numeric value.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "contentWidth"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "PageContentDimension"
+                },
+                {
+                  "kind": "Content",
+                  "text": " | number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 4
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "currentPage",
+              "canonicalReference": "currentPage",
+              "docComment": "/**\n * Index of the current page.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "currentPage"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "defaultEffect",
+              "canonicalReference": "defaultEffect",
+              "docComment": "/**\n * Pick an effect from one of the defaults.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "defaultEffect"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "PageEffect"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "direction",
+              "canonicalReference": "direction",
+              "docComment": "/**\n * Current swipe direction. Either \"horizontal\" or \"vertical\".\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "direction"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "PageDirection"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "draggingEnabled",
+              "canonicalReference": "draggingEnabled",
+              "docComment": "/**\n * Enable dragging of the scroll inside the page component.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "draggingEnabled"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "effect",
+              "canonicalReference": "effect",
+              "docComment": "/**\n * @beta\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "effect"
+                },
+                {
+                  "kind": "Content",
+                  "text": "?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "CustomPageEffect"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Beta"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "gap",
+              "canonicalReference": "gap",
+              "docComment": "/**\n * Gap between the page.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "gap"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "momentum",
+              "canonicalReference": "momentum",
+              "docComment": "/**\n * Enable or disabling momentum, which defines if the page should auto-snap to the next page or not.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "momentum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "padding",
+              "canonicalReference": "padding",
+              "docComment": "/**\n * Padding within the page component.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "padding"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "paddingBottom",
+              "canonicalReference": "paddingBottom",
+              "docComment": "/**\n * Bottom padding within the page component.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "paddingBottom"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "paddingLeft",
+              "canonicalReference": "paddingLeft",
+              "docComment": "/**\n * Left padding within the page component.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "paddingLeft"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "paddingPerSide",
+              "canonicalReference": "paddingPerSide",
+              "docComment": "/**\n * Set padding on all sides, or one specific one.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "paddingPerSide"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "paddingRight",
+              "canonicalReference": "paddingRight",
+              "docComment": "/**\n * Right padding within the page component.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "paddingRight"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "paddingTop",
+              "canonicalReference": "paddingTop",
+              "docComment": "/**\n * Top padding within the page component.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "paddingTop"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "PageProperties"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "PageProps",
+          "canonicalReference": "(PageProps:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "PageProps"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "PageProperties"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "FrameProperties"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "LayerProps"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Partial"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "PageEvents"
+            },
+            {
+              "kind": "Content",
+              "text": ">, "
+            },
+            {
+              "kind": "Reference",
+              "text": "Partial"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "DragEvents"
+            },
+            {
+              "kind": "Content",
+              "text": "<typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "Frame"
+            },
+            {
+              "kind": "Content",
+              "text": ">>, "
+            },
+            {
+              "kind": "Reference",
+              "text": "Partial"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "ScrollEvents"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "Point",
+          "canonicalReference": "(Point:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "name": "x",
+              "canonicalReference": "x",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "x"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "y",
+              "canonicalReference": "y",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "y"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "Point"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "Point",
+          "canonicalReference": "(Point:namespace)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "Point"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "PropertyStore",
+          "canonicalReference": "(PropertyStore:namespace)",
+          "docComment": "/**\n * @deprecated\n *\n * Use Data instead\n *\n * @beta\n */\n",
+          "releaseTag": "Beta",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "PropertyStore"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "Rect",
+          "canonicalReference": "(Rect:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "Rect"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Point"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Size"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "Rect",
+          "canonicalReference": "(Rect:namespace)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "Rect"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Enum",
+          "name": "RenderTarget",
+          "canonicalReference": "(RenderTarget:enum)",
+          "docComment": "/**\n * @beta\n */\n",
+          "releaseTag": "Beta",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "name": "canvas",
+              "canonicalReference": "canvas",
+              "docComment": "",
+              "releaseTag": "Beta",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "canvas"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "0"
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "export",
+              "canonicalReference": "export",
+              "docComment": "",
+              "releaseTag": "Beta",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "export"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "1"
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "name": "preview",
+              "canonicalReference": "preview",
+              "docComment": "",
+              "releaseTag": "Beta",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "preview"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "2"
+                }
+              ],
+              "embeddedExcerpts": {
+                "initializer": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum "
+            },
+            {
+              "kind": "Reference",
+              "text": "RenderTarget"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "RenderTarget",
+          "canonicalReference": "(RenderTarget:namespace)",
+          "docComment": "/**\n * This is a read-only equivalent of RenderEnvironment.target that is exposed to components for context-dependent rendering\n *\n * @beta\n */\n",
+          "releaseTag": "Beta",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "RenderTarget"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Class",
+          "name": "Scroll",
+          "canonicalReference": "(Scroll:class)",
+          "docComment": "/**\n * The Scroll component in Framer allows you create scrollable areas. It can be imported from the Framer Library and used in code components. Add children that exceed the height or width of the component to create horizontally or vertically scrollable areas. See {@link ScrollProperties} for its properties\n *\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class "
+            },
+            {
+              "kind": "Reference",
+              "text": "Scroll"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "React"
+            },
+            {
+              "kind": "Content",
+              "text": "."
+            },
+            {
+              "kind": "Reference",
+              "text": "Component"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "Partial"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "ScrollProps"
+            },
+            {
+              "kind": "Content",
+              "text": ">> "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "ScrollEvents",
+          "canonicalReference": "(ScrollEvents:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "name": "onScroll",
+              "canonicalReference": "onScroll",
+              "docComment": "/**\n * On scroll.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "onScroll"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ScrollEventHandler"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "onScrollEnd",
+              "canonicalReference": "onScrollEnd",
+              "docComment": "/**\n * On end of scroll.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "onScrollEnd"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ScrollEventHandler"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "onScrollSessionEnd",
+              "canonicalReference": "onScrollSessionEnd",
+              "docComment": "/**\n * @beta\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "onScrollSessionEnd"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ScrollEventHandler"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Beta"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "onScrollSessionStart",
+              "canonicalReference": "onScrollSessionStart",
+              "docComment": "/**\n * @beta\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "onScrollSessionStart"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ScrollEventHandler"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Beta"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "onScrollStart",
+              "canonicalReference": "onScrollStart",
+              "docComment": "/**\n * On start of scroll.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "onScrollStart"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ScrollEventHandler"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "ScrollEvents"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "ScrollProperties",
+          "canonicalReference": "(ScrollProperties:interface)",
+          "docComment": "/**\n * The properties for the {@link Scroll} component, which are also available within other components, like {@link Page}.\n *\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "name": "contentOffsetX",
+              "canonicalReference": "contentOffsetX",
+              "docComment": "/**\n * Horizontal offset of the scrollable content.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "contentOffsetX"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Animatable"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number> | null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 5
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "contentOffsetY",
+              "canonicalReference": "contentOffsetY",
+              "docComment": "/**\n * Vertical offset of the scrollable content.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "contentOffsetY"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Animatable"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number> | null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 5
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "direction",
+              "canonicalReference": "direction",
+              "docComment": "/**\n * Scrolling direction.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "direction"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ScrollDirection"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "directionLock",
+              "canonicalReference": "directionLock",
+              "docComment": "/**\n * Lock the current scrolling direction.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "directionLock"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "draggingEnabled",
+              "canonicalReference": "draggingEnabled",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "draggingEnabled"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "mouseWheel",
+              "canonicalReference": "mouseWheel",
+              "docComment": "/**\n * @internalremarks Ignored and deprecated; see https://github.com/framer/company/issues/10018 for future direction\n *\n * @deprecated\n *\n * mouseWheel is always enabled\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "mouseWheel"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "ScrollProperties"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "ScrollProps",
+          "canonicalReference": "(ScrollProps:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "ScrollProps"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "ScrollProperties"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "FrameProperties"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "LayerProps"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "Partial"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "ScrollEvents"
+            },
+            {
+              "kind": "Content",
+              "text": ">, "
+            },
+            {
+              "kind": "Reference",
+              "text": "Partial"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "DragEvents"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "DraggableType"
+            },
+            {
+              "kind": "Content",
+              "text": ">> "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Interface",
+          "name": "Size",
+          "canonicalReference": "(Size:interface)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "name": "height",
+              "canonicalReference": "height",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "height"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            },
+            {
+              "kind": "PropertySignature",
+              "name": "width",
+              "canonicalReference": "width",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "width"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "propertyType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              },
+              "releaseTag": "Public"
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "interface "
+            },
+            {
+              "kind": "Reference",
+              "text": "Size"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "Size",
+          "canonicalReference": "(Size:namespace)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "Size"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Class",
+          "name": "SpringAnimator",
+          "canonicalReference": "(SpringAnimator:class)",
+          "docComment": "/**\n * Animator class using a spring curve\n *\n * @beta\n */\n",
+          "releaseTag": "Beta",
+          "members": [
+            {
+              "kind": "Method",
+              "name": "isFinished",
+              "canonicalReference": "(isFinished:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "isFinished"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "isReady",
+              "canonicalReference": "(isReady:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "isReady"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "next",
+              "canonicalReference": "(next:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [
+                {
+                  "kind": "Parameter",
+                  "name": "delta",
+                  "canonicalReference": "delta",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "delta"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  }
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "next"
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "delta"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 4,
+                  "endIndex": 5
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "progress",
+              "canonicalReference": "(progress:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "progress"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "setFrom",
+              "canonicalReference": "(setFrom:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [
+                {
+                  "kind": "Parameter",
+                  "name": "value",
+                  "canonicalReference": "value",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Value"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  }
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "setFrom"
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 6,
+                  "endIndex": 7
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "setTo",
+              "canonicalReference": "(setTo:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [
+                {
+                  "kind": "Parameter",
+                  "name": "value",
+                  "canonicalReference": "value",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "value"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Value"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  }
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "setTo"
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "value"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Value"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 6,
+                  "endIndex": 7
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "setVelocity",
+              "canonicalReference": "(setVelocity:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [
+                {
+                  "kind": "Parameter",
+                  "name": "velocity",
+                  "canonicalReference": "velocity",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "velocity"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "parameterType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  }
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "setVelocity"
+                },
+                {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
+                  "kind": "Reference",
+                  "text": "velocity"
+                },
+                {
+                  "kind": "Content",
+                  "text": ": number): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 4,
+                  "endIndex": 5
+                }
+              }
+            },
+            {
+              "kind": "Method",
+              "name": "updateInterpolator",
+              "canonicalReference": "(updateInterpolator:instance,0)",
+              "docComment": "",
+              "isStatic": false,
+              "releaseTag": "Beta",
+              "overloadIndex": 0,
+              "parameters": [],
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "updateInterpolator"
+                },
+                {
+                  "kind": "Content",
+                  "text": "(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "embeddedExcerpts": {
+                "returnType": {
+                  "startIndex": 2,
+                  "endIndex": 3
+                }
+              }
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class "
+            },
+            {
+              "kind": "Reference",
+              "text": "SpringAnimator"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "Value"
+            },
+            {
+              "kind": "Content",
+              "text": "> implements "
+            },
+            {
+              "kind": "Reference",
+              "text": "Animator"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "Value"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "SpringOptions"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Class",
+          "name": "Stack",
+          "canonicalReference": "(Stack:class)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class "
+            },
+            {
+              "kind": "Reference",
+              "text": "Stack"
+            },
+            {
+              "kind": "Content",
+              "text": " extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Layer"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "StackProperties"
+            },
+            {
+              "kind": "Content",
+              "text": ", "
+            },
+            {
+              "kind": "Reference",
+              "text": "StackState"
+            },
+            {
+              "kind": "Content",
+              "text": "> "
+            }
+          ],
+          "embeddedExcerpts": {}
+        },
+        {
+          "kind": "Namespace",
+          "name": "transform",
+          "canonicalReference": "(transform:namespace)",
+          "docComment": "/**\n * @public\n */\n",
+          "releaseTag": "Public",
+          "members": [
+            {
+              "kind": "Interface",
+              "name": "Options",
+              "canonicalReference": "(Options:interface)",
+              "docComment": "",
+              "releaseTag": "Public",
+              "members": [
+                {
+                  "kind": "PropertySignature",
+                  "name": "colorModel",
+                  "canonicalReference": "colorModel",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "colorModel"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "ColorMixModelType"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "propertyType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  },
+                  "releaseTag": "Public"
+                },
+                {
+                  "kind": "PropertySignature",
+                  "name": "inputInterpolation",
+                  "canonicalReference": "inputInterpolation",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "inputInterpolation"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Interpolation"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<"
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "InputValue"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ">"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "propertyType": {
+                      "startIndex": 2,
+                      "endIndex": 6
+                    }
+                  },
+                  "releaseTag": "Public"
+                },
+                {
+                  "kind": "PropertySignature",
+                  "name": "limit",
+                  "canonicalReference": "limit",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "limit"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "boolean"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "propertyType": {
+                      "startIndex": 2,
+                      "endIndex": 3
+                    }
+                  },
+                  "releaseTag": "Public"
+                },
+                {
+                  "kind": "PropertySignature",
+                  "name": "outputInterpolation",
+                  "canonicalReference": "outputInterpolation",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Reference",
+                      "text": "outputInterpolation"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ": "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "Interpolation"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "<"
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "OutputValue"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ">"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "embeddedExcerpts": {
+                    "propertyType": {
+                      "startIndex": 2,
+                      "endIndex": 6
+                    }
+                  },
+                  "releaseTag": "Public"
+                }
+              ],
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "interface "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Options"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "InputValue"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "OutputValue"
+                },
+                {
+                  "kind": "Content",
+                  "text": "> "
+                }
+              ],
+              "embeddedExcerpts": {}
+            }
+          ],
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare namespace "
+            },
+            {
+              "kind": "Reference",
+              "text": "transform"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "embeddedExcerpts": {}
+        }
+      ]
+    }
+  ]
+}
